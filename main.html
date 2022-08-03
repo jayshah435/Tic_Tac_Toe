@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TicTacToe</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+<h1 class="h1">Welcome to Tic Tac Toe Game!</h1>
+<h3 class="h3" id="player"></h3>
+<div class="container">
+        <div class="row">
+            <div class="box bl bt boxx" id="box-1" onclick="clickfn('box-1')">
+            </div>
+            <div class="box bt" id="box-2" onclick="clickfn('box-2')"></div>
+            <div class="box br bt" id="box-3" onclick="clickfn('box-3')"></div>
+        </div>
+        <div class="row">
+            <div class="box bl" id="box-4" onclick="clickfn('box-4')"></div>
+            <div class="box" id="box-5" onclick="clickfn('box-5')"></div>
+            <div class="box br" id="box-6" onclick="clickfn('box-6')"></div>
+        </div>
+        <div class="row">
+            <div class="box bl bd" id="box-7" onclick="clickfn('box-7')"></div>
+            <div class="box bd" id="box-8" onclick="clickfn('box-8')"></div>
+            <div class="box br bd" id="box-9" onclick="clickfn('box-9')"></div>
+        </div>
+        <div class="row">
+            <h3 id="result"></h3>
+        </div>
+        <div class="row">
+            <button class="reset" onclick="resetfn()">RESET</button>
+        </div>
+</div>
+
+<script src="index.js"></script>
+</body>
+</html>
